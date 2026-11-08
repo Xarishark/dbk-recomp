@@ -1,7 +1,7 @@
 # DKB Recomp
 
 [![Licença: GPL-3.0-or-later](https://img.shields.io/badge/licen%C3%A7a-GPL--3.0--or--later-blue)](LICENSE)
-[![Download](https://img.shields.io/github/v/release/teasergames/dbk-recomp?include_prereleases&label=DKB-Setup)](https://github.com/teasergames/dbk-recomp/releases/latest)
+[![Download](https://img.shields.io/github/v/release/teasergames/dbk-recomp?include_prereleases&label=DKB-Setup)](https://github.com/teasergames/dbk-recomp/releases)
 [![Projeto original](https://img.shields.io/badge/projeto%20original-Lucas--blip--png%2Fdkb--pc--recomp-black?logo=github)](https://github.com/Lucas-blip-png/dkb-pc-recomp)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-apoie%20o%20autor-ff5e5b?logo=ko-fi&logoColor=white)](https://ko-fi.com/lucasblippng)
 
