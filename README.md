@@ -8,7 +8,7 @@
 > [!NOTE]
 > **Esta é uma cópia não oficial** do [DKB Recomp](https://github.com/Lucas-blip-png/dkb-pc-recomp), de
 > **Lucas-blip-png** e colaboradores, no commit
-> [`0f854a4`](https://github.com/Lucas-blip-png/dkb-pc-recomp/commit/0f854a4). Todo o crédito pelo projeto é deles.
+> [`db77cdf`](https://github.com/Lucas-blip-png/dkb-pc-recomp/commit/db77cdf). Todo o crédito pelo projeto é deles.
 > Aqui você encontra o **instalador pronto (DKB-Setup)** na aba
 > [Releases](https://github.com/teasergames/dbk-recomp/releases). Bugs do jogo, sugestões e contribuições vão para o
 > [repositório original](https://github.com/Lucas-blip-png/dkb-pc-recomp/issues). Os documentos da pasta `docs/`
