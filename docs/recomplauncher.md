@@ -30,7 +30,14 @@ and settings. RecompLauncher tracks the setup's selected paths, not a verified d
 set; RomFS packing checks establish packing integrity, not original dump authenticity.
 
 Settings edit `game/dkb.ini`, which the runtime reads and updates itself. Nothing in
-the release overwrites that file on update. Backups/cloud saves contain only
+the release overwrites that file on update. Automatic window mode starts full screen
+when `RECOMPLAUNCHER=1` and `RECOMPLAUNCHER_MODE=bigpicture`; otherwise the normal
+runtime/device defaults apply. An explicit window mode in the settings file or
+`DKB_FULLSCREEN`/`TOTK_FULLSCREEN` overrides this session default. It is never saved
+automatically. SDL's existing automatic pad layout handles controller labels without
+forcing a glyph set or enabling background input.
+
+Backups/cloud saves contain only
 `game/profile/` and `game/dkb.ini`; source dumps, tools, build state and shader caches
 are excluded. Open saves and Open logs lead to the runtime's folders. Vulkan is
 declared for the launcher's Looks feature; ReShade has not been tested with Bananza.
@@ -46,6 +53,7 @@ that the game is playable from beginning to end.
 ```
 python tests/recomplauncher_test.py
 python tests/installer_bananza_test.py
+python tests/recomplauncher_cfg_test.py --cc clang
 python tools/check_content.py --staged
 ```
 

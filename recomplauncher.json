@@ -37,9 +37,9 @@
   "settings": [
     {
       "id": "fullscreen", "label": "Window mode", "group": "Display",
-      "help": "Choose a window or full screen.",
-      "choices": [{"label": "Windowed", "set": {"display/fullscreen": "0"}}, {"label": "Full screen", "set": {"display/fullscreen": "1"}}],
-      "defaults": {"display/fullscreen": "0"}
+      "help": "Automatic uses full screen in Big Picture and the game's default otherwise.",
+      "choices": [{"label": "Automatic", "set": {"display/fullscreen": ""}}, {"label": "Windowed", "set": {"display/fullscreen": "0"}}, {"label": "Full screen", "set": {"display/fullscreen": "1"}}],
+      "defaults": {"display/fullscreen": ""}
     },
     {
       "id": "window_size", "label": "Window size", "group": "Display",
